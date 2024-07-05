@@ -1,0 +1,53 @@
+h1, h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Puedes cambiar el peso según tus necesidades */
+    font-style: normal;
+}
+
+body {
+    background-color: #f0a4ec;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #f0a4ec;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: red;
+    color: #f0a4ec;
+}
+
+.terminos {
+    color: blue;
+}
+
+.terminos:hover {
+    background-color: blue;
+    color: pink; /* Cambia el color del texto a rosa */
+}
+
+.footer {
+    margin-top: 150px;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Puedes cambiar el peso según tus necesidades */
+    font-style: normal;
+}
